@@ -53,7 +53,7 @@ n.cells <- 3
 # the excel template file MUST be stored here
 # when copy file path from Windows Explorer please replace "\" with "//" and "\\" with "//"
 
-wd <- "D://Hannah//"
+wd <- "..."
 
 # show the files available in the workind directory
 list.files(wd)
@@ -341,7 +341,7 @@ for (i in names(mass.l)){
 }
 
 
-title("Inserts ¦ A to B", outer=TRUE)
+title("Inserts Â¦ A to B", outer=TRUE)
 
 dev.off()
 
@@ -447,7 +447,7 @@ for (i in names(mass.l)){
 }
 
 
-title("Inserts ¦ B to A", outer=TRUE)
+title("Inserts Â¦ B to A", outer=TRUE)
 
 dev.off()
 
@@ -551,7 +551,7 @@ for (i in names(mass.l)){
 }
 
 
-title("Inserts ¦ A to B", outer=TRUE)
+title("Inserts Â¦ A to B", outer=TRUE)
 
 dev.off()
 
@@ -657,7 +657,7 @@ for (i in names(mass.l)){
 }
 
 
-title("Inserts ¦ B to A", outer=TRUE)
+title("Inserts Â¦ B to A", outer=TRUE)
 
 dev.off()
 
